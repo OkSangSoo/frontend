@@ -1,3 +1,15 @@
+//메타 태그
+//웹 문서의 정보(메타데이터)를 알려주기 위해 작성되는 태그
+//헤드에 홀태그로 작성
+
+<meta .../>
+
+charset : 인코딩 방식 // <meta charset="utf-8">
+viewport : 웹 문서에 그려지는 영역 조정 // <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+                                     //user-scalable(사용자 크기 조정 가능 여부), maximum-scale(최대 확대 가능 크기)
+author, description, keywords : 검색 엔진이나 외부 웹서비스에 표현할 정보 // <meta name="author|description|keywords" content="abcd">
+opengraph : 여러 컨텐츠를 통해 더 자세한 정보 제공 // <meta property="og:title|type|url|image" content="abc">
+
 //Block 태그
 //block은 레이아웃에서의 일정 영역, inline은 요소의 크기만큼에만 해당하는 영역
 
@@ -49,3 +61,13 @@ table horizon : th, td // 행 합치기 <td rowspan="2"/> 아래 1행과 합치�
 Anchor(내용에 링크 생성) : a // <a href="url">내용</a>
 Image(이미지 삽입) : img // <img src="url"/>
 Embed(외부 컨텐츠 삽입) : embed // <embed src="url"/>
+
+//iframe 태그
+//다른 웹페이지를 표시할 수 있는 태그
+//<iframe width="500" height="300" src=https://www.naver.com frameborder="0"></iframe>
+
+src : iframe에 표시될 웹 문서 주소
+width,height : 높이, 너비(px | %)
+frameborder : 테두리 표시 여부 (1,0)
+scrolling : 스크롤바 표시 여부 (yes, no, auto)
+name : a 태그에서 참조할 이름

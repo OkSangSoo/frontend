@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SIGNUP</title>
+        <meta name="keyword" content="signup">
+    </head>
+    <body>
+        <h1>SIGNUP</h1>
+        <hr>
+        <form action="signup.html" method="POST">
+            <fieldset>
+                <legend>Account Info</legend>
+                <div>
+                    <label for="id-account">ID</label>
+                    <input type="text" name="account" id="id-account" required="required">
+                </div>
+                <div>
+                    <label for="id-password">PASSWORD</label>
+                    <input type="password" name="password" id="id-password" required="required">
+                </div>
+                <div>
+                    <label for="id-password2">PASSWORD CHECK</label>
+                    <input type="password" name="password2" id="id-password2" required="required">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Profile</legend>
+                <div>
+                    <label for="id-name">Name</label>
+                    <input type="text" name="name" id="id-name" required="required">
+                </div>
+                <div>
+                    <label for="id-birthyear">Birthday</label>
+                    <input type="number" name="birthyear" id="id-birthyear" placeholder="YEAR ex)2024" required="required">
+                    <select name="birthmonth">
+                        <option value="">MONTH</option>
+                        <option value="1">JAN</option><option value="2">FEB</option><option value="3">MAR</option><option value="4">APR</option>
+                        <option value="5">MAY</option><option value="6">JUN</option><option value="7">JUL</option><option value="8">AUG</option>
+                        <option value="9">SEP</option><option value="10">OCT</option><option value="11">NOV</option><option value="12">DEC</option>
+                    </select>
+                    <input type="number" name="birthday" id="id-birthday" placeholder="DAY" min="1" max="31" required="required">
+                </div>
+                <div>
+                    <label>Gender</label>
+                    <input type="radio" name="gender" id="id-gender-male" required="required">
+                    <label for="id-gender-male">Male</label>
+                    <input type="radio" name="gender" id="id-gender-female" required="required">
+                    <label for="id-gender-female">Female</label>
+                </div>
+            </fieldset>
+
+            <div>
+                <input type="checkbox" name="agree" id="id-agree" required="required">
+                <label for="id-agree">사이트 이용 약관 및 개인정보 수집 방침에 동의합니다</label>
+            </div>
+
+            <div>
+                <button type="submit">가입하기</button>
+            </div>
+        </form>
+    </body>
+</html>
