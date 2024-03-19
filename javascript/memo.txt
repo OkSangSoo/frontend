@@ -1,0 +1,53 @@
+// script 위치 참고
+https://shape-coding.tistory.com/entry/JavaScript-Script-%ED%83%9C%EA%B7%B8%EC%9D%98-%EC%9C%84%EC%B9%98%EB%8A%94-%EC%96%B4%EB%94%94%EA%B0%80-%EC%A2%8B%EC%9D%84%EA%B9%8C
+
+console.log(); 개발자도구 출력
+alert(); 사용자에게 출력
+prompt(); 사용자에게 입력 받음
+
+
+// 비교 연산자 (boolean)
+
+== : 동등 // 값이 같다 (타입 X)
+!= : 부등 // 값이 다르다 (타입 X)
+=== : 일치 // 값이 같다 (타입 O)
+
+> | >= | < | <= : 대소비교
+
+// 논리 연산자 (boolean)
+
+&& : AND
+|| : OR
+! : NOT
+
+// 기타 연산자
+
+? : 삼항 연산자 // A ? B : C // A가 참이면 return B 거짓이면 return C
+delete, typeof... : 단항 연산자
+& , | , ^ , ~ , << , >> , >>> : 비트 연산자
+
+// 조건문
+
+if ( 조건식 ) { 
+        실행 코드 
+    } else if {
+        실행코드
+    } else {
+        실행코드 
+    }
+    
+switch ( 표현식 ) {
+    case 값1 : 
+        실행코드 
+        break; 
+    case 값2 : 
+        실행코드 
+        break; 
+    default: 
+        실행코드 
+}
+
+// 반복문
+
+for (초기식; 조건문; 증감식) { 실행 코드 }
+while (조건문;) { 실행 코드 }
