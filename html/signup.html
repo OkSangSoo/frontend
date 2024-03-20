@@ -3,6 +3,7 @@
         <meta charset="utf-8">
         <title>SIGNUP</title>
         <meta name="keyword" content="signup">
+        <link rel="stylesheet" type="text/css" href="../css/signup.css">
     </head>
     <body>
         <h1>SIGNUP</h1>
@@ -13,14 +14,17 @@
                 <div>
                     <label for="id-account">ID</label>
                     <input type="text" name="account" id="id-account" required="required">
+                    <span class="alert-message" id="account-alert">---</span>
                 </div>
                 <div>
                     <label for="id-password">PASSWORD</label>
                     <input type="password" name="password" id="id-password" required="required">
+                    <span class="alert-message" id="account-alert">---</span>
                 </div>
                 <div>
                     <label for="id-password2">PASSWORD CHECK</label>
                     <input type="password" name="password2" id="id-password2" required="required">
+                    <span class="alert-message" id="account-alert">---</span>
                 </div>
             </fieldset>
 
@@ -43,9 +47,9 @@
                 </div>
                 <div>
                     <label>Gender</label>
-                    <input type="radio" name="gender" id="id-gender-male" required="required">
+                    <input type="radio" name="gender" id="id-gender-male" value="male" required="required">
                     <label for="id-gender-male">Male</label>
-                    <input type="radio" name="gender" id="id-gender-female" required="required">
+                    <input type="radio" name="gender" id="id-gender-female" value="female" required="required">
                     <label for="id-gender-female">Female</label>
                 </div>
             </fieldset>
@@ -59,5 +63,6 @@
                 <button type="submit">가입하기</button>
             </div>
         </form>
+        <script src="../javascript/validation.js"></script>
     </body>
 </html>
