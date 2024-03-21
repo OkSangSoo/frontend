@@ -30,3 +30,5 @@ class 선택자 : <p class="pclass"/> \\ .pclass { }
 block : 설정한 크기에 맞게 배치, 상하로만 배치 가능
 inline : content의 크기에 맞게 배치, 좌우배치 가능
 inline-block : 크기는 block의 속성, 배치는 inline의 속성 따라감
+
+box-sizing : border-box >> 전체 크기를 설정한 크기로 고정, padding 추가 시 content가 작아지는 방식으로 작동
