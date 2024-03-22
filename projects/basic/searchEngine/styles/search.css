@@ -1,0 +1,175 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+
+.transparent-button {
+    border : 0;
+    background-color : transparent;
+    cursor : pointer;
+}
+
+.page {
+    width : 100%;
+    height : 100%;
+
+    display : flex;
+    flex-direction : column;
+
+    
+}
+
+/*** HEADER ***/
+
+
+header {
+    width : 100%;
+    height : 40px;
+    text-align : right;
+}
+
+header div {
+    display : inline-block;
+    vertical-align : middle;
+    margin-left : 25px;
+}
+
+header div > * {
+    padding : 5px 0;
+}
+
+.header-text span{
+    font-size :15px;
+    font-weight : 700;
+    color : #7e7e7e;
+}
+
+.header-image img {
+    width : 28px;
+    height : 28px;
+}
+
+.header-userprofile {
+    margin-right : 15px;
+}
+
+.header-userprofile img{
+    width : 30px;
+    height : 30px;
+    border-radius : 50%;
+}
+
+
+/*** MAIN ***/
+
+main {
+    flex : 1;
+    width : 100%;
+    min-height : 600px;
+
+    text-align: center;
+}
+
+main div {
+    width : 100%;
+}
+
+.logo {
+    font-size : 100px;
+    font-weight : 900;
+    color : #3f3faf;
+
+    margin-top : 100px;
+}
+.input-area {
+    margin-top : 40px;
+    height : 40px;
+    width : 100%;
+
+    display : flex;
+    justify-content : center;
+}
+
+.input-box {
+
+    height : 40px;
+    width : 640px;
+
+    display : flex;
+    align-items: center;
+    justify-content : center;
+
+    border : 1px solid #757575;
+    border-radius : 30px;
+}
+
+.input-box input {
+    width : 600px;
+    height : 40px;
+    border : 0;
+    background-color : transparent;
+
+    font-size : 15px;
+    font-weight : 400;
+    color : #0F0F0F;
+
+    padding-left : 10px;
+
+}
+.input-box input:focus {
+    outline : none;
+}
+
+.input-box button img {
+    width : 30px;
+    height : 30px;
+}
+
+.content-area { 
+    width : 100%;
+    
+    display : flex;
+    justify-content: center;
+    align-content : center;
+}
+
+.content-box {
+    width : 600px;
+    margin-top : 40px;
+}
+
+.contents li{
+    display : inline-block;
+    vertical-align : middle;
+
+    margin : 10px 25px;
+}
+
+
+.content-area img { 
+    width : 55px;
+    height : 55px;
+
+}
+/*** FOOTER ***/
+
+footer {
+    width : 100%;
+    height : 40px;
+    background-color : #dadada;
+
+    /*상하좌우 정렬*/
+    display : flex;
+    align-items: center;
+    justify-content : center;
+}
+
+footer div {
+    text-align: center;
+}
+
+.footer-text span {
+    font-size : 15px;
+    font-weight : 900;
+    color : #000000;
+}
