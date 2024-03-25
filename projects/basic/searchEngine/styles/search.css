@@ -38,6 +38,7 @@ header div > * {
     padding : 5px 0;
 }
 
+
 .header-text span{
     font-size :15px;
     font-weight : 700;
@@ -49,8 +50,21 @@ header div > * {
     height : 28px;
 }
 
+.image-modal {
+    border : 0;
+    width : 360px;
+    height : 610px;
+
+    position : absolute;
+    top : 40px;
+    right : 10px;
+
+    display : none;
+}
+
 .header-userprofile {
     margin-right : 15px;
+
 }
 
 .header-userprofile img{
@@ -58,6 +72,26 @@ header div > * {
     height : 30px;
     border-radius : 50%;
 }
+.imgClicked {
+    box-shadow : rgba(145, 145, 145, 0.5) 0px 0px 0px 3px;
+}
+
+.userprofile-modal {
+    border : 0;
+    width : 360px;
+    height : 310px;
+
+    position : absolute;
+    top : 40px;
+    right : 10px;
+
+    display : none;
+}
+
+.show{
+    display : block;
+}
+
 
 
 /*** MAIN ***/
@@ -77,7 +111,7 @@ main div {
 .logo {
     font-size : 100px;
     font-weight : 900;
-    color : #3f3faf;
+    color : #a60cff;
 
     margin-top : 100px;
 }
