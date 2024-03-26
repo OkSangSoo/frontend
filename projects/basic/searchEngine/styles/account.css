@@ -7,11 +7,28 @@
     width : 350px;
     height: 300px;
 
-    border-radius: 30px;
+    border-radius: 20px;
     background-color: #dfb8ff;
     box-shadow: 5px 5px 2px #f3cdff;
 
 }
+
+.close-button{
+    background-color : transparent;
+    border : 0;
+
+    position : absolute;
+    top : 10px;
+    left : 325px;
+    transform : translateX(-50%);
+
+    cursor : pointer;
+}
+.close-button img {
+    width : 30px;
+    height : 30px;
+}
+
 .profile {
     width : 350px;
     height : 200px;

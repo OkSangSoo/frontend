@@ -29,3 +29,13 @@ function controlModal (headerButton){
     modal.classList.toggle('show');
 
 }
+
+
+window.addEventListener("message", receiveMessage, false);
+
+function receiveMessage(e){
+    if (e.data == "closeAccountModal"){
+        var modal = document.querySelector('.userprofile-modal');
+        modal.classList.toggle('show');
+    }
+}
