@@ -52,16 +52,17 @@ header div > * {
 
 .image-modal {
     border : 0;
-    width : 360px;
-    height : 610px;
+    width : 346px;
+    height : 100vh;
+    max-height: 480px;
 
     position : absolute;
     top : 40px;
     right : 10px;
 
     display : none;
-}
 
+}
 .header-userprofile {
     margin-right : 15px;
 

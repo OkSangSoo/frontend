@@ -15,6 +15,13 @@ Icon made by Bingge Liu from www.flaticon.com
 
 Icon made by Freepik from www.flaticon.com
 - dots-menu.png
+- email.png
+
+Icon made by ArtBit from www.flaticon.com
+- letter-n.png
+
+Icon made by riajulislam from www.flaticon.com
+- github.png
 
 Icon made by Tanah Basah from www.flaticon.com
 - search.png
